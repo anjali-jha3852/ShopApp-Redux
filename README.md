@@ -1,16 +1,36 @@
-<<<<<<< HEAD
-# React + Vite
+# ShopApp-Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛍 A shopping application built with **React + Redux Toolkit**, bootstrapped using **Vite** for fast development and optimized builds.
+
+---
+
+## ⚡ Tech Stack
+- React (with Hooks)
+- Redux Toolkit (for global state management)
+- Vite (for development & build)
+- ESLint (for linting)
+
+---
+
+## 🚀 Features
+- Product listing
+- Add/remove items from cart
+- Real-time cart total updates
+- State management with Redux Toolkit
+
+---
+
+## 🔧 Development with React + Vite
+
+This project uses **Vite** to provide a minimal setup with HMR (Hot Module Replacement) and ESLint rules.
 
 Currently, two official plugins are available:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) (uses **Babel** for Fast Refresh)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) (uses **SWC** for Fast Refresh)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠 Expanding the ESLint Configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ShopApp-Redux
->>>>>>> e02ed647b69e2bfb116ca2933575d7bf3b601f4c
+For production apps, using **TypeScript with type-aware lint rules** is recommended.  
+Check out the [React + TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate `typescript-eslint`.
